@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/value_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="50dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:textStyle="bold"
+        android:hint="Input RMB" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/RMB_to_DOLLAR"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DOLLAR"
+        android:background="#FF9800"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/RMB_to_EURO"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="Button"
+        android:background="#FF9800"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/RMB_to_WON"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="Button"
+        android:background="#FF9800"
+        android:textColor="@android:color/black" />
+</LinearLayout>
